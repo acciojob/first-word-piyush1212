@@ -11,7 +11,6 @@ function firstWord(s) {
   return s.substring(0, spaceIndex);
 }
 
-// Do not change the code below
-
+// Prompting user for input
 const s = prompt("Enter String:");
 alert(firstWord(s));
